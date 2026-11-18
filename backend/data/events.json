@@ -1,0 +1,208 @@
+[
+  {
+    "id": 15,
+    "device_id": "smart-apd-01",
+    "event_type": "chute_sensor_alert",
+    "slot": 3,
+    "success": false,
+    "message": "Passage sensor timeout (3000ms). Chute blocked or pill failed to drop.",
+    "details": {
+      "source": "manual_trigger",
+      "timestamp": 1795000058697
+    },
+    "created_at": "2026-11-18T11:07:38.723Z"
+  },
+  {
+    "id": 14,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 0,
+    "success": true,
+    "message": "Dose dispensed into chute. IR beam passage verified.",
+    "details": {
+      "source": "manual_trigger",
+      "timestamp": 1795000051874
+    },
+    "created_at": "2026-11-18T11:07:31.910Z"
+  },
+  {
+    "id": 1,
+    "device_id": "smart-apd-01",
+    "event_type": "power_on_self_test",
+    "slot": null,
+    "success": true,
+    "message": "ESP32 POST complete. RTC DS3231 synced, OLED ready, stepper initialized.",
+    "details": {
+      "firmware": "1.0.0",
+      "rtc": "DS3231",
+      "oled": "SSD1306_128x64",
+      "battery": "OK"
+    },
+    "created_at": "2026-11-17T05:41:08.773Z"
+  },
+  {
+    "id": 2,
+    "device_id": "smart-apd-01",
+    "event_type": "carousel_homing",
+    "slot": null,
+    "success": true,
+    "message": "Optical home sensor calibrated. Stepper position set to 0.",
+    "details": {
+      "sensor_pin": 13,
+      "homing_steps": 42,
+      "status": "HOMED"
+    },
+    "created_at": "2026-11-17T05:47:08.773Z"
+  },
+  {
+    "id": 3,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 0,
+    "success": true,
+    "message": "Morning dose dispensed into chute. IR beam passage detected.",
+    "details": {
+      "medication": "Metformin 500mg",
+      "passage_time_ms": 122,
+      "schedule": "08:00"
+    },
+    "created_at": "2026-11-17T07:41:08.773Z"
+  },
+  {
+    "id": 4,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 1,
+    "success": true,
+    "message": "Afternoon dose dispensed. Passage sensor confirmed drop.",
+    "details": {
+      "medication": "Multivitamin",
+      "passage_time_ms": 135,
+      "schedule": "12:00"
+    },
+    "created_at": "2026-11-17T11:41:08.773Z"
+  },
+  {
+    "id": 5,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 2,
+    "success": true,
+    "message": "Evening dose dispensed. IR passage verified.",
+    "details": {
+      "medication": "Atorvastatin 20mg",
+      "passage_time_ms": 140,
+      "schedule": "18:00"
+    },
+    "created_at": "2026-11-17T17:41:08.773Z"
+  },
+  {
+    "id": 6,
+    "device_id": "smart-apd-01",
+    "event_type": "chute_sensor_alert",
+    "slot": 3,
+    "success": false,
+    "message": "Passage timeout (3000ms). Chute blocked or pill failed to drop.",
+    "details": {
+      "error": "PASSAGE_TIMEOUT",
+      "buzzer_activated": true,
+      "review_required": true
+    },
+    "created_at": "2026-11-17T23:41:08.773Z"
+  },
+  {
+    "id": 7,
+    "device_id": "smart-apd-01",
+    "event_type": "manual_acknowledgement",
+    "slot": 3,
+    "success": null,
+    "message": "User pressed tactile acknowledge button. Chute cleared.",
+    "details": {
+      "button_pin": 34,
+      "user_action": "ACK_BUTTON_PRESSED"
+    },
+    "created_at": "2026-11-17T23:53:08.773Z"
+  },
+  {
+    "id": 8,
+    "device_id": "smart-apd-01",
+    "event_type": "manual_dispense_retry",
+    "slot": 3,
+    "success": true,
+    "message": "Manual retry dispense successful. IR passage verified (115ms).",
+    "details": {
+      "retry_attempt": 1,
+      "passage_time_ms": 115,
+      "medication": "Lisinopril 10mg"
+    },
+    "created_at": "2026-11-17T23:59:08.773Z"
+  },
+  {
+    "id": 9,
+    "device_id": "smart-apd-01",
+    "event_type": "carousel_homing",
+    "slot": null,
+    "success": true,
+    "message": "Routine carousel position re-alignment complete.",
+    "details": {
+      "status": "HOMED",
+      "drift_steps": 0
+    },
+    "created_at": "2026-11-18T02:41:08.773Z"
+  },
+  {
+    "id": 10,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 4,
+    "success": true,
+    "message": "Scheduled dose dispensed. IR passage confirmed.",
+    "details": {
+      "medication": "Amlodipine 5mg",
+      "passage_time_ms": 128,
+      "schedule": "08:00"
+    },
+    "created_at": "2026-11-18T04:11:08.773Z"
+  },
+  {
+    "id": 11,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 5,
+    "success": true,
+    "message": "Scheduled dose dispensed into chute. Gate closed.",
+    "details": {
+      "medication": "Calcium + D3",
+      "passage_time_ms": 130,
+      "schedule": "12:00"
+    },
+    "created_at": "2026-11-18T04:56:08.773Z"
+  },
+  {
+    "id": 12,
+    "device_id": "smart-apd-01",
+    "event_type": "dispense_warning",
+    "slot": 6,
+    "success": false,
+    "message": "Gate angle sluggish during open cycle (exceeded settle window).",
+    "details": {
+      "error": "GATE_SERVO_SLOW",
+      "warning_latched": true
+    },
+    "created_at": "2026-11-18T05:26:08.773Z"
+  },
+  {
+    "id": 13,
+    "device_id": "smart-apd-01",
+    "event_type": "scheduled_dispense",
+    "slot": 7,
+    "success": true,
+    "message": "Night dose dispensed successfully. All carousel slots serviced.",
+    "details": {
+      "medication": "Melatonin 3mg",
+      "passage_time_ms": 118,
+      "schedule": "21:00"
+    },
+    "created_at": "2026-11-18T05:39:08.773Z"
+  }
+]
